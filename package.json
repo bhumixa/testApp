@@ -1,0 +1,12 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "dependencies": {
+    "async": "latest",
+    "ejs-locals": "latest",
+    "express": "3.4.8",
+    "moment": "latest",
+    "mysql": "latest",
+    "request": "latest"
+  }
+}

@@ -1,0 +1,40 @@
+<!-- Wrapper-->
+<div id="wrapper">
+
+    <!-- Navigation -->
+    <nav class="navbar-default navbar-static-side" role="navigation" >
+        <div class="sidebar-collapse">
+            <ul side-navigation class="nav" id="side-menu">
+                Test App
+               
+                
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- Page wraper -->
+    <!-- ng-class with current state name give you the ability to extended customization your view -->
+    <div id="page-wrapper" class="gray-bg {{$state.current.name}}">
+
+        <!-- Page wrapper -->
+        <div class="row border-bottom">
+            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <span minimaliza-sidebar></span>
+                    
+                </div>
+                    
+                </ul>
+
+            </nav>
+        </div>
+
+        <!-- Main view  -->
+        <div ui-view></div>
+
+        
+    </div>
+    <!-- End page wrapper-->
+
+

@@ -1,0 +1,21 @@
+
+<div  ng-controller="dashboardCtrl">
+	<div class="row wrapper border-bottom white-bg page-heading">
+		<div class="col-lg-9">
+		        <h2>Dashboard</h2>
+		</div>
+	</div> 
+	<div class="wrapper wrapper-content animated fadeInRight">	
+		<div class="col-lg-12">
+			<div class="row">
+				<div class="form-group">
+					<a ng-click="edit(1)">Edit</a>
+                    <a ng-click="new()">New</a>
+                    {{myData}}
+                    <div class="gridStyle" ng-grid="gridOptions">
+        			</div>
+                </div>
+			</div>
+		</div>
+	</div>
+</div>
